@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="initialBackground">
+    <div class="col-md-4">
+        <h2>About Us</h2>
+        <p>
+            effect117 designs and develops retro and educational games for mobile devices.  We use the popular
+            Unity game engine for all of our games.  effect117 also believes that we must provide our youth with all
+            the tools necessary to succeed.  Any advertisements seen in education games sends 100% profit
+            to the non-profit organization of our choice.
+        </p>
+        <p class="btn btn-default">@Html.ActionLink("About", "About", "Home")</p>
+
+    </div>
+    <div class="col-md-4">
+        <h2>Our Applications</h2>
+        <p>Click the link below to check out our applications.  Remember, any profits we make from educational games goes
+            to a non-profit.  More information on this can be found BLAH.</p>
+        <p class="btn btn-default">@Html.ActionLink("Our Applications", "OurApplicationsHome", "Home")</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Luminaria Network</h2>
+        <p>Interested in helping an educational non profit? Click the link below for details!</p>
+        <p><a class="btn btn-default" href="http://luminarianetwork.org/">Learn more &raquo;</a></p>
+    </div>
+</div>
